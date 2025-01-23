@@ -1,0 +1,20 @@
+{
+    "name": "serg/ochoa",
+    "autoload": {
+        "psr-4": {
+            "Serg\\Ochoa\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Serhii de la escuela GRI",
+            "email": "hztpaserg@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9",
+        "dompdf/dompdf": "^3.1",
+        "hztpaserg/saludo": "dev-main",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
